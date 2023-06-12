@@ -4,10 +4,10 @@
   publish = "static"
 
 [build.environment]
-  GO_IMPORT_PATH = "github.com/jinadam/netlify-go"
+  GO_IMPORT_PATH = "github.com/jinadam/pic-proxy"
   GO111MODULE = "on"
 
 [[redirects]]
   from = "/api/*"
-  to = "/.netlify/functions/netlify-go/:splat"
+  to = "/.netlify/functions/pic-proxy/:splat"
   status = 200
